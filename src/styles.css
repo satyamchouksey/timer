@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.display-time {
+  font-size: 100px;
+  font-stretch: condensed;
+}
+.control {
+  margin: 100px;
+  height: 80px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  width: 50%;
+  height: 100%;
+  margin: 0px 30px;
+  font-size: 50px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
